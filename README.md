@@ -59,3 +59,8 @@ RISC-V Board
 📘 Purpose
 
 Designed for academic use, especially MPMC projects and embedded ML demonstrations.
+
+Demonstration Video:
+
+The demonstration video is in this link:
+https://drive.google.com/drive/folders/1hvJBuOZEwjUZoKEcDB3VPNmnQRz9k7QE?usp=sharing
