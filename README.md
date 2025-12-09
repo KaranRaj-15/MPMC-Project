@@ -7,9 +7,8 @@ Python Transmitter + RISC-V Inference Engine
 This project implements an end-to-end system where a Python Transmitter running on a PC sends processed data (e.g., images) to a RISC-V microcontroller, which performs lightweight ML inference and returns the result.
 It demonstrates PC–MCU communication, UART protocols, and tinyML execution on embedded hardware.
 
-⸻
 
-📂 Project Structure
+Project Structure
 
 /Python Transmitter/
     - Image preprocessing scripts
@@ -23,17 +22,13 @@ It demonstrates PC–MCU communication, UART protocols, and tinyML execution on 
     - Peripheral drivers & model files
 
 
-⸻
-
-⚙️ How It Works
+ How It Works
 	1.	Python loads and preprocesses input data.
 	2.	Data is encoded into byte frames and sent via UART.
 	3.	The RISC-V board receives the stream, reconstructs inputs, and runs inference.
 	4.	Output classification is printed or sent back to the PC.
 
-⸻
-
-▶️ Running the Project
+ Running the Project
 
 PC (Python Transmitter)
 
@@ -46,16 +41,12 @@ RISC-V Board
 	•	Flash to the board
 	•	Open a serial monitor to view results
 
-⸻
-
-✨ Features
+ Features
 	•	Real-time PC → RISC-V data transfer
 	•	Lightweight embedded ML inference
 	•	Demonstrates UART communication & MPMC concepts
 	•	Clean separation of preprocessing (PC) and inference (MCU)
 
-⸻
-
-📘 Purpose
+ Purpose
 
 Designed for academic use, especially MPMC projects and embedded ML demonstrations.
